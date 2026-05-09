@@ -48,11 +48,10 @@ sudo dnf install cmake extra-cmake-modules kf6-kconfig-devel \
     kf6-kwindowsystem-devel kwin-devel qt6-qtbase-devel libdrm-devel libepoxy-devel
 ```
 
-On Debian (untested)
+On Debian
 
-> **Note:** This effect requires KWin 6.6 or later. As of writing, Ubuntu 25.04 ships KWin 6.3,
-> which is not compatible. Building on Debian-based distributions may fail until a sufficiently
-> recent version of `kwin-dev` becomes available.
+> **Note:** This effect requires KWin 6.6 or later. Building on Debian-based distributions may
+> fail if the KWin version available in the repositories does not meet this requirement.
 
 ```sh
 sudo apt install build-essential cmake extra-cmake-modules kwin-dev \
