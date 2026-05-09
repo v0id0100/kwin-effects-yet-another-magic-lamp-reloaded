@@ -17,7 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: apt install -y
-          cmake extra-cmake-modules kwin-dev libkf6config-dev
+          build-essential cmake extra-cmake-modules kwin-dev libkf6config-dev
           libkf6configwidgets-dev libkf6coreaddons-dev libkf6kcmutils-dev
           libkf6windowsystem-dev qt6-base-dev libdrm-dev
 
