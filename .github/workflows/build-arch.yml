@@ -17,7 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: pacman -S --noconfirm --needed
-          cmake extra-cmake-modules kwin qt6-base kcmutils
+          base-devel cmake extra-cmake-modules kwin qt6-base kcmutils
           kconfig kconfigwidgets kcoreaddons kwindowsystem libdrm
 
       - name: Checkout
