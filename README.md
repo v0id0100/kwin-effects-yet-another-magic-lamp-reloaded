@@ -17,6 +17,19 @@ under Plasma 6. X11 is no longer supported.
 
 ### Installation
 
+#### Quick install
+
+Clone the repository and run the install script — it will check and install all required dependencies automatically, then build and install the effect.
+
+```yaml
+git clone https://github.com/Si13n7/kwin-effects-yet-another-magic-lamp-reloaded.git
+cd kwin-effects-yet-another-magic-lamp-reloaded
+chmod +x ./install.sh
+./install.sh
+```
+
+Supports Arch Linux, Fedora, openSUSE Tumbleweed, and Debian, as well as most distributions based on these.
+
 #### Build from source
 
 You will need the following dependencies to build this effect:
@@ -123,14 +136,24 @@ sudo make install
 
 #### Building the effect against older Plasma versions
 
-If you want to build this effect against an older Plasma (5.x) release, checkout
-the corresponding `Plasma/x.yz` branch, for example
+This fork targets **Plasma 6.6 and later** exclusively. For older Plasma (5.x) releases,
+use the original repository by [zzag](https://github.com/zzag/kwin-effects-yet-another-magic-lamp),
+which provides dedicated branches per Plasma version.
+
+**Step 1** — Clone the original repository:
 
 ```yaml
 git clone https://github.com/zzag/kwin-effects-yet-another-magic-lamp.git
 cd kwin-effects-yet-another-magic-lamp
-git checkout Plasma/5.23
 ```
+
+**Step 2** — Check out the branch matching your Plasma version:
+
+```yaml
+git checkout Plasma/5.27
+```
+
+Replace `5.27` with your target version (e.g. `5.24`, `5.23`).
 
 
 ### Using the effect
@@ -148,7 +171,5 @@ Select **"Yet Another Magic Lamp"** and click **Apply**.
 
 ### Contributing
 
-Any help is welcome. If you have suggestions how to improve this effect(e.g.
-different duration for each stage of the animation, etc), please create a new
-issue. If you'd like to contribute by implementing some feature, make sure
-you've run clang-format before creating a PR.
+Contributions are welcome. For suggestions or ideas, please open an issue.
+For code contributions, run `clang-format` before submitting a pull request.
