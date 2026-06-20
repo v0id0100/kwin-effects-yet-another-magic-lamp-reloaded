@@ -137,6 +137,20 @@ make
 sudo make install
 ```
 
+### Building the effect againt higher Plasma version (6.7 ++):
+
+**Step 1** — Clone the original repository:
+
+```yaml
+git clone https://github.com/zzag/kwin-effects-yet-another-magic-lamp.git
+cd kwin-effects-yet-another-magic-lamp
+```
+
+**Step 2** — Check out the branch matching your Plasma version:
+
+```yaml
+git checkout plasma-6.7
+```
 
 #### Building the effect against older Plasma versions
 
