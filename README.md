@@ -46,7 +46,7 @@ sudo pacman -S \
     kcoreaddons \
     kwindowsystem \
     qt6-base \
-    libdrm
+    libdrm \
     vulkan-headers
 ```
 
@@ -64,7 +64,7 @@ sudo dnf install \
     kf6-kwindowsystem-devel \
     qt6-qtbase-devel \
     libdrm-devel \
-    libepoxy-devel
+    libepoxy-devel \
     vulkan-headers
 ```
 
@@ -84,7 +84,7 @@ sudo zypper install \
     qt6-base-devel \
     qt6-declarative-devel \
     libdrm-devel \
-    libepoxy-devel
+    libepoxy-devel \
     vulkan-headers
 ```
 
@@ -105,7 +105,7 @@ sudo apt install \
     libkf6kcmutils-dev \
     libkf6windowsystem-dev \
     qt6-base-dev \
-    libdrm-dev
+    libdrm-dev \
     vulkan-headers
 ```
 
