@@ -113,7 +113,7 @@ After you installed all the required dependencies, you can build
 the effect:
 
 ```yaml
-git clone https://github.com/Si13n7/kwin-effects-yet-another-magic-lamp-reloaded.git
+git clone https://github.com/v0id0100/kwin-effects-yet-another-magic-lamp-reloaded.git
 cd kwin-effects-yet-another-magic-lamp-reloaded
 git checkout plasma-6.7
 mkdir build && cd build
